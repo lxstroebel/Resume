@@ -1,0 +1,7 @@
+a:link.reference{
+ text-decoration: none
+}
+
+a:hover.reference{
+ text-decoration: underline
+}
