@@ -168,13 +168,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h5> <button onclick="document.getElementById('delta').style.display='block'" class="w3-button w3-hover-teal w3-round-xlarge"><img src="img/DeltaLogo.png" width="300px" alt="Delta Community College"></button>  <h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Fall 2014 - Spring 2017 </h6>
           <h6 class="w3-text-teal"><i class="fas fa-graduation-cap fa-fw w3-margin-right"></i>Associates Degree</h6>
+          <h6 class="w3-text-teal"><i class="far fa-file-alt fa-fw w3-margin-right"></i> Unofficial Transcripts </h6>
+             <p><a href="pdfs/DeltaTranscriptUnofficial.pdf"><button class="w3-button w3-teal w3-round-xlarge">Download</button></a></p>
           <p>At Delta, I explored a wide array of academic subjects including Music, Political Science, History, English, Spanish, Math, Chemistry, and Communications.  This helped cement my love of Math and Physics.  I also completed an Interpersonal Communications Skills certificate that delta offered following the completion of four communication courses.
           <hr>
         </div>
 
         <!-- High School Education -->
         <div class="w3-container">
-          <h5><a href="https://www.hemlock.k12.mi.us/o/district"><img alt="Hemlock public school district" src="img/HemlockLogo.png"></a><span style="font-family:arial;font-size:200%;"  >  Hemlock High School</h5>
+          <h5><button onclick="document.getElementById('hemlock').style.display='block'" class="w3-button w3-hover-teal w3-round-xlarge"><img alt="Hemlock public school district" src="img/HemlockLogo.png"><span style="font-family:arial;font-size:200%;"  >  Hemlock High School</span></button></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2009 - 2014</h6>
           <h6 class="w3-text-teal"><i class="fas fa-graduation-cap fa-fw w3-margin-right"></i>High School Diploma</h6>
           <p>During my time at Hemlock High school I gained an interest in the fields of Science and Mathematics.</p>
@@ -196,8 +198,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <a href="https://www.facebook.com/alex.stroebel"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
      <a href="https://meritpages.com/ajstroeb"><img src="img/meritLogo.png" style="width:30px" ></a> 
   <a href="https://www.linkedin.com/in/alex-stroebel/"><i class="fa fa-linkedin w3-hover-opacity"></i></a> 
-  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>-->
+  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+</footer>
 
 
 <!-- Here are the details for all the modals -->
@@ -355,6 +357,45 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                       <span 
                         style="position:absolute;left:0;bottom:20px" class="w3-text w3-tag">
                         Delta
+                      </span> 
+                  </span> 
+              </a>
+            </p>
+          </footer>
+        <!-- End of Footer Link -->
+      </div>
+    </div>    
+
+
+       <!-- Hemlock High School -->
+    <div id="hemlock" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-center w3-padding-24"> 
+          <span onclick="document.getElementById('hemlock').style.display='none'" 
+          class="w3-button w3-display-topright">&times;</span>
+          <img alt="Hemlock public school district" src="img/HemlockLogo.png"><span style="font-family:arial;font-size:200%;"  >  Hemlock High School</span>
+        </header>
+          <div class="w3-container w3-padding-24 w3-teal">
+            <p><i class="fas fa-phone fa-fw w3-margin-right w3-large w3-text-white"></i><a href="tel:989-642-5287" style="text-decoration: none"> <button class="w3-button w3-hover-white w3-round-xlarge">1 (989) 642-5287 </button></a> </p>
+            <p>
+              <i class="fas fa-map-marker-alt fa-fw w3-margin-right w3-large w3-text-white"></i>
+              <a href="https://www.google.com/maps/place/733+N+Hemlock+Rd,+Hemlock,+MI+48626/data=!4m2!3m1!1s0x8823cc873b479edf:0x6197f7764715f631?sa=X&ved=2ahUKEwjfuIunjp7pAhVQCc0KHXTyBOcQ8gEwAHoECAsQAQ"><button class="w3-button w3-hover-white w3-round-xlarge">
+                733 North Hemlock Rd <br>
+                Hemlock, MI 48626 <br>
+                P.O. Box 260  </button></a></p>
+          </div>
+            <!-- This make the linkable Footer -->
+          <footer class="w3-container  w3-center">
+            <p> Learn More </p>
+            <p>   
+              <a 
+                href="https://www.hemlock.k12.mi.us/o/high-school" style="text-decoration: none">
+                  <span class="w3-tooltip">
+                      <img 
+                        src="img/HemlockLogo.png"  alt="Hemlock High School" height="40px" style="  position: relative; bottom: 5px;">
+                      <span 
+                        style="position:absolute;left:0;bottom:20px" class="w3-text w3-tag">
+                        Hemlock
                       </span> 
                   </span> 
               </a>
